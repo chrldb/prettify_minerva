@@ -1,0 +1,7 @@
+_metadata/
+web-ext-artifacts/
+.amo-upload-uuid
+*.xpi
+*.zip
+.DS_Store
+prettify-minerva-firefox/amo-metadata.json
