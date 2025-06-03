@@ -1,0 +1,975 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBA104322DE6F6B1006806FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA104312DE6F6B1006806FF /* AppDelegate.swift */; };
+		FBA104342DE6F6B1006806FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA104332DE6F6B1006806FF /* SceneDelegate.swift */; };
+		FBA104372DE6F6B1006806FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA104352DE6F6B1006806FF /* LaunchScreen.storyboard */; };
+		FBA1043A2DE6F6B1006806FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA104382DE6F6B1006806FF /* Main.storyboard */; };
+		FBA104432DE6F6B1006806FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA104422DE6F6B1006806FF /* AppDelegate.swift */; };
+		FBA104462DE6F6B1006806FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA104442DE6F6B1006806FF /* Main.storyboard */; };
+		FBA1044E2DE6F6B1006806FF /* Prettify Minerva Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = FBA1044D2DE6F6B1006806FF /* Prettify Minerva Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FBA104582DE6F6B1006806FF /* Prettify Minerva Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = FBA104572DE6F6B1006806FF /* Prettify Minerva Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FBA1045E2DE6F6B1006806FF /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = FBA104212DE6F6AF006806FF /* Main.html */; };
+		FBA1045F2DE6F6B1006806FF /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = FBA104212DE6F6AF006806FF /* Main.html */; };
+		FBA104622DE6F6B1006806FF /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = FBA104242DE6F6AF006806FF /* Style.css */; };
+		FBA104632DE6F6B1006806FF /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = FBA104242DE6F6AF006806FF /* Style.css */; };
+		FBA104642DE6F6B1006806FF /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = FBA104252DE6F6AF006806FF /* Script.js */; };
+		FBA104652DE6F6B1006806FF /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = FBA104252DE6F6AF006806FF /* Script.js */; };
+		FBA104662DE6F6B1006806FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA104262DE6F6AF006806FF /* ViewController.swift */; };
+		FBA104672DE6F6B1006806FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA104262DE6F6AF006806FF /* ViewController.swift */; };
+		FBA104682DE6F6B1006806FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBA104272DE6F6B1006806FF /* Assets.xcassets */; };
+		FBA104692DE6F6B1006806FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBA104272DE6F6B1006806FF /* Assets.xcassets */; };
+		FBA1046A2DE6F6B1006806FF /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA104292DE6F6B1006806FF /* SafariWebExtensionHandler.swift */; };
+		FBA1046B2DE6F6B1006806FF /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA104292DE6F6B1006806FF /* SafariWebExtensionHandler.swift */; };
+		FBA104832DE6F6B1006806FF /* images in Resources */ = {isa = PBXBuildFile; fileRef = FBA1047D2DE6F6B1006806FF /* images */; };
+		FBA104842DE6F6B1006806FF /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = FBA1047E2DE6F6B1006806FF /* _metadata */; };
+		FBA104852DE6F6B1006806FF /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = FBA1047F2DE6F6B1006806FF /* manifest.json */; };
+		FBA104862DE6F6B1006806FF /* hide.css in Resources */ = {isa = PBXBuildFile; fileRef = FBA104802DE6F6B1006806FF /* hide.css */; };
+		FBA104872DE6F6B1006806FF /* SafariExtension in Resources */ = {isa = PBXBuildFile; fileRef = FBA104812DE6F6B1006806FF /* SafariExtension */; };
+		FBA104882DE6F6B1006806FF /* app.js in Resources */ = {isa = PBXBuildFile; fileRef = FBA104822DE6F6B1006806FF /* app.js */; };
+		FBA104892DE6F6B1006806FF /* images in Resources */ = {isa = PBXBuildFile; fileRef = FBA1047D2DE6F6B1006806FF /* images */; };
+		FBA1048A2DE6F6B1006806FF /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = FBA1047E2DE6F6B1006806FF /* _metadata */; };
+		FBA1048B2DE6F6B1006806FF /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = FBA1047F2DE6F6B1006806FF /* manifest.json */; };
+		FBA1048C2DE6F6B1006806FF /* hide.css in Resources */ = {isa = PBXBuildFile; fileRef = FBA104802DE6F6B1006806FF /* hide.css */; };
+		FBA1048D2DE6F6B1006806FF /* SafariExtension in Resources */ = {isa = PBXBuildFile; fileRef = FBA104812DE6F6B1006806FF /* SafariExtension */; };
+		FBA1048E2DE6F6B1006806FF /* app.js in Resources */ = {isa = PBXBuildFile; fileRef = FBA104822DE6F6B1006806FF /* app.js */; };
+		FBAF4F672DE7614B00825E4B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FBAF4F662DE7614B00825E4B /* Icon.png */; };
+		FBAF4F682DE7614B00825E4B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FBAF4F662DE7614B00825E4B /* Icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBA1044F2DE6F6B1006806FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBA1041B2DE6F6AF006806FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBA1044C2DE6F6B1006806FF;
+			remoteInfo = "Prettify Minerva Extension (iOS)";
+		};
+		FBA104592DE6F6B1006806FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBA1041B2DE6F6AF006806FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBA104562DE6F6B1006806FF;
+			remoteInfo = "Prettify Minerva Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FBA104712DE6F6B1006806FF /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FBA1044E2DE6F6B1006806FF /* Prettify Minerva Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBA104782DE6F6B1006806FF /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FBA104582DE6F6B1006806FF /* Prettify Minerva Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FBA104222DE6F6AF006806FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		FBA104242DE6F6AF006806FF /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		FBA104252DE6F6AF006806FF /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		FBA104262DE6F6AF006806FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBA104272DE6F6B1006806FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBA104292DE6F6B1006806FF /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		FBA1042E2DE6F6B1006806FF /* Prettify Minerva.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prettify Minerva.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBA104312DE6F6B1006806FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBA104332DE6F6B1006806FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FBA104362DE6F6B1006806FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBA104392DE6F6B1006806FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBA1043B2DE6F6B1006806FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBA104402DE6F6B1006806FF /* Prettify Minerva.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prettify Minerva.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBA104422DE6F6B1006806FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBA104452DE6F6B1006806FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBA104472DE6F6B1006806FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBA104482DE6F6B1006806FF /* Prettify Minerva.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Prettify Minerva.entitlements"; sourceTree = "<group>"; };
+		FBA1044D2DE6F6B1006806FF /* Prettify Minerva Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Prettify Minerva Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBA104522DE6F6B1006806FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBA104572DE6F6B1006806FF /* Prettify Minerva Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Prettify Minerva Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBA1045C2DE6F6B1006806FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBA1045D2DE6F6B1006806FF /* Prettify Minerva.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Prettify Minerva.entitlements"; sourceTree = "<group>"; };
+		FBA1047D2DE6F6B1006806FF /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = ../../../images; sourceTree = "<group>"; };
+		FBA1047E2DE6F6B1006806FF /* _metadata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _metadata; path = ../../../_metadata; sourceTree = "<group>"; };
+		FBA1047F2DE6F6B1006806FF /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../../manifest.json; sourceTree = "<group>"; };
+		FBA104802DE6F6B1006806FF /* hide.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = hide.css; path = ../../../hide.css; sourceTree = "<group>"; };
+		FBA104812DE6F6B1006806FF /* SafariExtension */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SafariExtension; path = ../..; sourceTree = "<group>"; };
+		FBA104822DE6F6B1006806FF /* app.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = app.js; path = ../../../app.js; sourceTree = "<group>"; };
+		FBAF4F662DE7614B00825E4B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBA1042B2DE6F6B1006806FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBA1043D2DE6F6B1006806FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBA1044A2DE6F6B1006806FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBA104542DE6F6B1006806FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBA1041A2DE6F6AF006806FF = {
+			isa = PBXGroup;
+			children = (
+				FBA1041F2DE6F6AF006806FF /* Shared (App) */,
+				FBA104282DE6F6B1006806FF /* Shared (Extension) */,
+				FBA104302DE6F6B1006806FF /* iOS (App) */,
+				FBA104412DE6F6B1006806FF /* macOS (App) */,
+				FBA104512DE6F6B1006806FF /* iOS (Extension) */,
+				FBA1045B2DE6F6B1006806FF /* macOS (Extension) */,
+				FBA1042F2DE6F6B1006806FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBA1041F2DE6F6AF006806FF /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				FBA104262DE6F6AF006806FF /* ViewController.swift */,
+				FBA104272DE6F6B1006806FF /* Assets.xcassets */,
+				FBA104202DE6F6AF006806FF /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		FBA104202DE6F6AF006806FF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FBA104212DE6F6AF006806FF /* Main.html */,
+				FBAF4F662DE7614B00825E4B /* Icon.png */,
+				FBA104242DE6F6AF006806FF /* Style.css */,
+				FBA104252DE6F6AF006806FF /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FBA104282DE6F6B1006806FF /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				FBA1047C2DE6F6B1006806FF /* Resources */,
+				FBA104292DE6F6B1006806FF /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		FBA1042F2DE6F6B1006806FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBA1042E2DE6F6B1006806FF /* Prettify Minerva.app */,
+				FBA104402DE6F6B1006806FF /* Prettify Minerva.app */,
+				FBA1044D2DE6F6B1006806FF /* Prettify Minerva Extension.appex */,
+				FBA104572DE6F6B1006806FF /* Prettify Minerva Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBA104302DE6F6B1006806FF /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				FBA104312DE6F6B1006806FF /* AppDelegate.swift */,
+				FBA104332DE6F6B1006806FF /* SceneDelegate.swift */,
+				FBA104352DE6F6B1006806FF /* LaunchScreen.storyboard */,
+				FBA104382DE6F6B1006806FF /* Main.storyboard */,
+				FBA1043B2DE6F6B1006806FF /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		FBA104412DE6F6B1006806FF /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				FBA104422DE6F6B1006806FF /* AppDelegate.swift */,
+				FBA104442DE6F6B1006806FF /* Main.storyboard */,
+				FBA104472DE6F6B1006806FF /* Info.plist */,
+				FBA104482DE6F6B1006806FF /* Prettify Minerva.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		FBA104512DE6F6B1006806FF /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				FBA104522DE6F6B1006806FF /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		FBA1045B2DE6F6B1006806FF /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				FBA1045C2DE6F6B1006806FF /* Info.plist */,
+				FBA1045D2DE6F6B1006806FF /* Prettify Minerva.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		FBA1047C2DE6F6B1006806FF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FBA1047D2DE6F6B1006806FF /* images */,
+				FBA1047E2DE6F6B1006806FF /* _metadata */,
+				FBA1047F2DE6F6B1006806FF /* manifest.json */,
+				FBA104802DE6F6B1006806FF /* hide.css */,
+				FBA104812DE6F6B1006806FF /* SafariExtension */,
+				FBA104822DE6F6B1006806FF /* app.js */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBA1042D2DE6F6B1006806FF /* Prettify Minerva (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBA104722DE6F6B1006806FF /* Build configuration list for PBXNativeTarget "Prettify Minerva (iOS)" */;
+			buildPhases = (
+				FBA1042A2DE6F6B1006806FF /* Sources */,
+				FBA1042B2DE6F6B1006806FF /* Frameworks */,
+				FBA1042C2DE6F6B1006806FF /* Resources */,
+				FBA104712DE6F6B1006806FF /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBA104502DE6F6B1006806FF /* PBXTargetDependency */,
+			);
+			name = "Prettify Minerva (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Prettify Minerva (iOS)";
+			productReference = FBA1042E2DE6F6B1006806FF /* Prettify Minerva.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBA1043F2DE6F6B1006806FF /* Prettify Minerva (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBA104792DE6F6B1006806FF /* Build configuration list for PBXNativeTarget "Prettify Minerva (macOS)" */;
+			buildPhases = (
+				FBA1043C2DE6F6B1006806FF /* Sources */,
+				FBA1043D2DE6F6B1006806FF /* Frameworks */,
+				FBA1043E2DE6F6B1006806FF /* Resources */,
+				FBA104782DE6F6B1006806FF /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBA1045A2DE6F6B1006806FF /* PBXTargetDependency */,
+			);
+			name = "Prettify Minerva (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Prettify Minerva (macOS)";
+			productReference = FBA104402DE6F6B1006806FF /* Prettify Minerva.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBA1044C2DE6F6B1006806FF /* Prettify Minerva Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBA1046E2DE6F6B1006806FF /* Build configuration list for PBXNativeTarget "Prettify Minerva Extension (iOS)" */;
+			buildPhases = (
+				FBA104492DE6F6B1006806FF /* Sources */,
+				FBA1044A2DE6F6B1006806FF /* Frameworks */,
+				FBA1044B2DE6F6B1006806FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prettify Minerva Extension (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Prettify Minerva Extension (iOS)";
+			productReference = FBA1044D2DE6F6B1006806FF /* Prettify Minerva Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		FBA104562DE6F6B1006806FF /* Prettify Minerva Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBA104752DE6F6B1006806FF /* Build configuration list for PBXNativeTarget "Prettify Minerva Extension (macOS)" */;
+			buildPhases = (
+				FBA104532DE6F6B1006806FF /* Sources */,
+				FBA104542DE6F6B1006806FF /* Frameworks */,
+				FBA104552DE6F6B1006806FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prettify Minerva Extension (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Prettify Minerva Extension (macOS)";
+			productReference = FBA104572DE6F6B1006806FF /* Prettify Minerva Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBA1041B2DE6F6AF006806FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					FBA1042D2DE6F6B1006806FF = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					FBA1043F2DE6F6B1006806FF = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					FBA1044C2DE6F6B1006806FF = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					FBA104562DE6F6B1006806FF = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = FBA1041E2DE6F6AF006806FF /* Build configuration list for PBXProject "Prettify Minerva" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBA1041A2DE6F6AF006806FF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FBA1042F2DE6F6B1006806FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBA1042D2DE6F6B1006806FF /* Prettify Minerva (iOS) */,
+				FBA1043F2DE6F6B1006806FF /* Prettify Minerva (macOS) */,
+				FBA1044C2DE6F6B1006806FF /* Prettify Minerva Extension (iOS) */,
+				FBA104562DE6F6B1006806FF /* Prettify Minerva Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBA1042C2DE6F6B1006806FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBAF4F672DE7614B00825E4B /* Icon.png in Resources */,
+				FBA104372DE6F6B1006806FF /* LaunchScreen.storyboard in Resources */,
+				FBA1045E2DE6F6B1006806FF /* Main.html in Resources */,
+				FBA104642DE6F6B1006806FF /* Script.js in Resources */,
+				FBA104682DE6F6B1006806FF /* Assets.xcassets in Resources */,
+				FBA1043A2DE6F6B1006806FF /* Main.storyboard in Resources */,
+				FBA104622DE6F6B1006806FF /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBA1043E2DE6F6B1006806FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBAF4F682DE7614B00825E4B /* Icon.png in Resources */,
+				FBA104632DE6F6B1006806FF /* Style.css in Resources */,
+				FBA104462DE6F6B1006806FF /* Main.storyboard in Resources */,
+				FBA104652DE6F6B1006806FF /* Script.js in Resources */,
+				FBA104692DE6F6B1006806FF /* Assets.xcassets in Resources */,
+				FBA1045F2DE6F6B1006806FF /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBA1044B2DE6F6B1006806FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBA1048E2DE6F6B1006806FF /* app.js in Resources */,
+				FBA104892DE6F6B1006806FF /* images in Resources */,
+				FBA1048C2DE6F6B1006806FF /* hide.css in Resources */,
+				FBA1048B2DE6F6B1006806FF /* manifest.json in Resources */,
+				FBA1048D2DE6F6B1006806FF /* SafariExtension in Resources */,
+				FBA1048A2DE6F6B1006806FF /* _metadata in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBA104552DE6F6B1006806FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBA104882DE6F6B1006806FF /* app.js in Resources */,
+				FBA104832DE6F6B1006806FF /* images in Resources */,
+				FBA104862DE6F6B1006806FF /* hide.css in Resources */,
+				FBA104852DE6F6B1006806FF /* manifest.json in Resources */,
+				FBA104872DE6F6B1006806FF /* SafariExtension in Resources */,
+				FBA104842DE6F6B1006806FF /* _metadata in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBA1042A2DE6F6B1006806FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBA104662DE6F6B1006806FF /* ViewController.swift in Sources */,
+				FBA104322DE6F6B1006806FF /* AppDelegate.swift in Sources */,
+				FBA104342DE6F6B1006806FF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBA1043C2DE6F6B1006806FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBA104672DE6F6B1006806FF /* ViewController.swift in Sources */,
+				FBA104432DE6F6B1006806FF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBA104492DE6F6B1006806FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBA1046A2DE6F6B1006806FF /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBA104532DE6F6B1006806FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBA1046B2DE6F6B1006806FF /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBA104502DE6F6B1006806FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBA1044C2DE6F6B1006806FF /* Prettify Minerva Extension (iOS) */;
+			targetProxy = FBA1044F2DE6F6B1006806FF /* PBXContainerItemProxy */;
+		};
+		FBA1045A2DE6F6B1006806FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBA104562DE6F6B1006806FF /* Prettify Minerva Extension (macOS) */;
+			targetProxy = FBA104592DE6F6B1006806FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBA104212DE6F6AF006806FF /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBA104222DE6F6AF006806FF /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		FBA104352DE6F6B1006806FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBA104362DE6F6B1006806FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FBA104382DE6F6B1006806FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBA104392DE6F6B1006806FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBA104442DE6F6B1006806FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBA104452DE6F6B1006806FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBA1046C2DE6F6B1006806FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBA1046D2DE6F6B1006806FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		FBA1046F2DE6F6B1006806FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C533Y5KXTF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Prettify Minerva Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chrldb.Prettify-Minerva.Extension";
+				PRODUCT_NAME = "Prettify Minerva Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBA104702DE6F6B1006806FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C533Y5KXTF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Prettify Minerva Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chrldb.Prettify-Minerva.Extension";
+				PRODUCT_NAME = "Prettify Minerva Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBA104732DE6F6B1006806FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = C533Y5KXTF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Prettify Minerva";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chrldb.Prettify-Minerva";
+				PRODUCT_NAME = "Prettify Minerva";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBA104742DE6F6B1006806FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = C533Y5KXTF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Prettify Minerva";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chrldb.Prettify-Minerva";
+				PRODUCT_NAME = "Prettify Minerva";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBA104762DE6F6B1006806FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Prettify Minerva.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C533Y5KXTF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Prettify Minerva Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chrldb.Prettify-Minerva.Extension";
+				PRODUCT_NAME = "Prettify Minerva Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FBA104772DE6F6B1006806FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Prettify Minerva.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C533Y5KXTF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Prettify Minerva Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chrldb.Prettify-Minerva.Extension";
+				PRODUCT_NAME = "Prettify Minerva Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FBA1047A2DE6F6B1006806FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Prettify Minerva.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C533Y5KXTF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Prettify Minerva";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chrldb.Prettify-Minerva";
+				PRODUCT_NAME = "Prettify Minerva";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FBA1047B2DE6F6B1006806FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Prettify Minerva.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C533Y5KXTF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Prettify Minerva";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chrldb.Prettify-Minerva";
+				PRODUCT_NAME = "Prettify Minerva";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBA1041E2DE6F6AF006806FF /* Build configuration list for PBXProject "Prettify Minerva" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBA1046C2DE6F6B1006806FF /* Debug */,
+				FBA1046D2DE6F6B1006806FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBA1046E2DE6F6B1006806FF /* Build configuration list for PBXNativeTarget "Prettify Minerva Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBA1046F2DE6F6B1006806FF /* Debug */,
+				FBA104702DE6F6B1006806FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBA104722DE6F6B1006806FF /* Build configuration list for PBXNativeTarget "Prettify Minerva (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBA104732DE6F6B1006806FF /* Debug */,
+				FBA104742DE6F6B1006806FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBA104752DE6F6B1006806FF /* Build configuration list for PBXNativeTarget "Prettify Minerva Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBA104762DE6F6B1006806FF /* Debug */,
+				FBA104772DE6F6B1006806FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBA104792DE6F6B1006806FF /* Build configuration list for PBXNativeTarget "Prettify Minerva (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBA1047A2DE6F6B1006806FF /* Debug */,
+				FBA1047B2DE6F6B1006806FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBA1041B2DE6F6AF006806FF /* Project object */;
+}
